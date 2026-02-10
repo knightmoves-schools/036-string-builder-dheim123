@@ -9,5 +9,12 @@ public class Person {
       this.lastName = lastName;
    }
 
-   // Add your code here
+   public string BuildFullName() {
+      StringBuilder sb = new StringBuilder();
+      sb.Append(firstName);
+      sb.Append(" ");
+      sb.Append(lastName);
+      return sb.ToString();
+   }
+}
 }
