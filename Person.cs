@@ -1,4 +1,6 @@
-﻿namespace knightmoves;
+using System.Text;
+
+namespace knightmoves;
 
 public class Person {
    private string firstName;
@@ -17,4 +19,4 @@ public class Person {
       return sb.ToString();
    }
 }
-}
+
